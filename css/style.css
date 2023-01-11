@@ -1,0 +1,121 @@
+:root
+{
+    --azulClaro: #e0e8ff;
+    --cinza: #fafafafa;
+    --azulEscuro: #0804e6e2; 
+    --cinzaClaro: #868484ee;
+}
+body
+{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--azulClaro);
+    font-family: 'Red Hat Display' , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+main{
+    background-color: #fff;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 16px;
+    position: relative; 
+    overflow: hidden;
+   
+}
+
+.card__principal{
+    content: url(/images/illustration-hero.svg); 
+    border-radius:12px 12px 0 0 ;
+    
+}
+.container{
+ padding: 35px;
+}
+.card__principal_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.texto1__principal{
+    margin-bottom: 15px;
+    font-size: 27px;
+
+}
+.paragrafo1__principal{
+    text-align: center;
+    font-size: 17px;
+}
+
+    
+.div_pag{
+
+        background-color: var(--cinza);
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 40px;
+        justify-content: space-around;
+        padding: 20px 10px;
+ }
+.plans{
+    display: flex;
+    align-items: center;
+
+}
+.plano__img{
+    
+    content: url(/images/icon-music.svg);
+    margin-right: 20px;
+}
+
+.span1{
+    color: var(--cinzaClaro);
+    font-size:auto;
+    margin-top: 20px;
+}
+
+
+.final{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+button{
+        background-color: var(--azulEscuro);
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 17px;       
+        border-radius: 12px;
+        width: 100%;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+button:hover{
+    background: hsl(224, 23%, 55%);
+}
+.cancelar{
+ margin-top: 20px;
+text-decoration: none;    
+color: rgba(134, 132, 132, 0.932);
+cursor: pointer;
+transition: 0.8s;
+}
+.cancelar:hover{
+    color: #070d57fa
+}
+
